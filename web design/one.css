@@ -1,0 +1,66 @@
+.main-header{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+.blur{
+    background-color: rgba(255, 255, 255, 0.80);
+    height: 100%;
+    width: 100% !important;
+}
+
+.blur-2{
+    background-color: rgba(255, 255, 255, 0.80);
+    height: 100%;
+    width: 159% !important;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.btn{
+    padding: 12px 60px;
+    border-radius: 25px;
+    color: #1D1E21;
+    font-weight: 600;
+    border: 2px solid #1D1E21;
+    margin-left: 125px;
+    margin-top: 40px;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+
+.number-section-mid{
+    width: 88%;
+    margin: auto;
+}
+
+.mbl{
+    height: 350px;
+    margin: 50px;
+}
+
+@media screen and (max-width: 780px) {
+    .res{
+        display: block;
+        padding-left: 300px;
+        text-align: center;
+        margin: none!impotant;
+    }
+    
+    .imagee{
+        display: block;
+        margin: auto;
+    }
+    
+    .rs{
+        padding-right: 80px;
+    }
+    
+    .mbl{
+        width: 400px;
+    }
+}
